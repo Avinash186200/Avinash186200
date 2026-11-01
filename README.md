@@ -17,6 +17,11 @@ What it covers: how LLMs actually work · prompting & safety · agents with Lang
 Model Context Protocol · RAG · evaluating & monitoring AI systems · fine-tuning & validating
 models the honest way · shipping to production · AI system design interviews.
 
+**📊 Volatility Regime Forecasting** — a case study in applied ML: feature engineering that drove
+a 6x signal improvement, an ensembling methodology, and a leak-free validation process rigorous
+enough to catch two real bugs before they shipped.
+→ **[github.com/Avinash186200/volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)**
+
 ---
 
 **What I work with:** Python · LangGraph / LangChain · MCP · RAG & vector search · FastAPI ·
