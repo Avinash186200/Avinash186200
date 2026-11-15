@@ -9,8 +9,7 @@ Most recently I was technical lead on an agentic research assistant for a financ
 served as MCP tools and to Excel through a REST gateway, a LangGraph agent with durable memory, retrieval with
 citations, and CI-gated evals, deployed with Docker on GCP.
 
-Everything here runs from a clone and is tested in CI. Client work is rebuilt on synthetic data with every client,
-company and person name removed.
+These are projects I have worked on over 15 years, across machine learning, quantitative research and AI.
 
 ---
 
@@ -79,8 +78,8 @@ and says so plainly when the honest answer was "no signal".
 
 ---
 
-**How these repos are built:** maintained code with tests and CI, a `docs/` folder with the method and a walkthrough,
-and where it applies an `original/` folder with the code as I first wrote it, sanitised, so you can compare the two.
+**How these repos are organised:** code with tests, a `docs/` folder with the method and a walkthrough, and where it
+applies an `original/` folder with the code as I first wrote it, so you can see how it evolved.
 
 **Open to:** AI engineering, ML engineering and AI/ML lead roles, remote or Delhi NCR.
 
