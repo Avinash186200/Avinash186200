@@ -14,6 +14,7 @@ with every client, company and person name removed.
 | Repository | What it is |
 |---|---|
 | [ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch) | Code for my free YouTube course: LLMs, prompting, LangGraph agents, MCP, RAG, evals, production, system design, plus a 10-question interview special |
+| [ai-chatbot-from-scratch](https://github.com/Avinash186200/ai-chatbot-from-scratch) | Build an AI analytics chatbot from scratch: React chat UI, LangGraph agent, MCP tools, Excel gateway, RAG with citations, evals and Docker, with a 12-step build guide |
 | [quant-research-agent](https://github.com/Avinash186200/quant-research-agent) | A Claude agent and MCP server that audits trading strategies for look-ahead and selection bias, with a planted-bug eval suite |
 | [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Turns a Python lesson script into a narrated video with captions and chapters, a vertical Short and thumbnails. It produced every video in my course |
 
