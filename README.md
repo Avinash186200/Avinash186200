@@ -46,29 +46,39 @@ These are projects I have worked on over 15 years, across machine learning, quan
 
 ---
 
-## More machine learning and research
+## More ML and AI
 
-Every repo has an audit table of the biases I found (look-ahead, selection bias, missing costs) and how I fixed them,
-and says so plainly when the honest answer was "no signal".
+| Repository | What it is |
+|---|---|
+| [ml-model-building-workflow](https://github.com/Avinash186200/ml-model-building-workflow) | Feature engineering, point-in-time merge, train-only scaling, clustering and a baseline classifier |
+| [trading-algorithm-backtester](https://github.com/Avinash186200/trading-algorithm-backtester) | Random forest, SVM, MLP and logistic classifiers compared on a strict time split |
+| [intraday-market-data-pipeline](https://github.com/Avinash186200/intraday-market-data-pipeline) | Data pipeline for model inputs: parallel backfill, quality checks, leak-free features, DuckDB/Parquet |
+| [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Generative tooling I built for my course: a lesson script becomes a narrated video, Shorts and thumbnails |
+
+## Earlier ML work (2020 to 2021)
+
+The first versions of my ML work, with their original commit history. Each README says what I would do differently
+today and links to the maintained version.
+
+| Repository | Year | What it is |
+|---|---|---|
+| [ml-trading-classifiers-2020](https://github.com/Avinash186200/ml-trading-classifiers-2020) | 2020 | Random forest, SVM and neural-network classifiers scoring signals, with feature importance |
+| [ml-feature-engineering-pipeline-2020](https://github.com/Avinash186200/ml-feature-engineering-pipeline-2020) | 2020 | Feature pipeline: indicators, label merge, standardisation, K-means clustering, feature importance |
+| [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with logistic regression, tree models and a small neural network |
+
+<details>
+<summary><b>Quantitative research (11 repos)</b></summary>
+
+Each has an audit table of the biases I found (look-ahead, selection bias, missing costs) and how I fixed them.
 
 | Repository | What it is |
 |---|---|
 | [vol-etp-hedge-overlay](https://github.com/Avinash186200/vol-etp-hedge-overlay) | ML timing model; a label-overlap leak found and fixed, no edge after correction |
-| [trading-algorithm-backtester](https://github.com/Avinash186200/trading-algorithm-backtester) | Random forest, SVM, MLP and logistic classifiers compared on a strict time split, with costs |
-| [ml-model-building-workflow](https://github.com/Avinash186200/ml-model-building-workflow) | Feature engineering, point-in-time merge, train-only scaling, regime clustering and a baseline classifier |
 | [walk-forward-backtest-pipeline](https://github.com/Avinash186200/walk-forward-backtest-pipeline) | Model selection with nested walk-forward, a hold-out and selection-decay reporting |
 | [emerging-market-feature-library](https://github.com/Avinash186200/emerging-market-feature-library) | Causal feature library for multi-index panels, with a timing-leak audit |
-| [intraday-market-data-pipeline](https://github.com/Avinash186200/intraday-market-data-pipeline) | Data pipeline for model inputs: parallel backfill, split detection, leak-free features, DuckDB/Parquet and QC |
-| [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Generative tooling I built for my course: a lesson script becomes a narrated video, Shorts and thumbnails |
-
-<details>
-<summary><b>Portfolio allocation, strategy research and notebooks (8 repos)</b></summary>
-
-| Repository | What it is |
-|---|---|
 | [drawdown-constrained-allocation](https://github.com/Avinash186200/drawdown-constrained-allocation) | Walk-forward allocator with a hard single-day loss cap |
 | [vol-budgeted-model-allocation](https://github.com/Avinash186200/vol-budgeted-model-allocation) | Allocation across models under per-model, group and portfolio volatility budgets |
-| [short-interest-gap-strategy](https://github.com/Avinash186200/short-interest-gap-strategy) | Gap strategy on FINRA short-interest data with a random-pick control |
+| [short-interest-gap-strategy](https://github.com/Avinash186200/short-interest-gap-strategy) | Gap strategy on short-interest data with a random-pick control |
 | [fx-strategy-backtester](https://github.com/Avinash186200/fx-strategy-backtester) | FX rule backtester: next-bar fills, bid/ask costs, deflated Sharpe |
 | [commodity-strategy-backtester](https://github.com/Avinash186200/commodity-strategy-backtester) | Commodity rule backtester with walk-forward selection |
 | [trailing-stop-loss-study](https://github.com/Avinash186200/trailing-stop-loss-study) | ATR trailing-stop overlay with an out-of-sample check |
