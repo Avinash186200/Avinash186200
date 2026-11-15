@@ -21,6 +21,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 |---|---|
 | **[ai-chatbot-from-scratch](https://github.com/Avinash186200/ai-chatbot-from-scratch)** | A complete AI assistant, end to end: React chat UI, LangGraph agent with Postgres memory, MCP tools, an Excel gateway, RAG with citations, an intent router, a vendor-neutral LLM adapter, evals, tracing and Docker. Includes a 12-step build guide |
 | **[quant-research-agent](https://github.com/Avinash186200/quant-research-agent)** | An LLM agent and MCP server that audits model code for look-ahead and selection bias, scored against a planted-bug eval suite |
+| **[llm-finetuning-lora](https://github.com/Avinash186200/llm-finetuning-lora)** | LoRA fine-tuning compared with zero-shot and few-shot prompting on a strict-JSON extraction task: validity, exact match, latency, rank ablation, seeds, and where fine-tuning stops generalising |
 | **[ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch)** | Code for my free 50-episode YouTube course: LLMs, prompting, agents, MCP, RAG, evals, LLMOps, deployment, security and system design |
 
 **Machine learning**
@@ -36,7 +37,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 
 | Area | Tools and practice |
 |---|---|
-| LLM applications | LangGraph, MCP, tool calling, structured output, prompt and context engineering, Anthropic and OpenAI-compatible APIs |
+| LLM applications | LoRA/PEFT fine-tuning, LangGraph, MCP, tool calling, structured output, prompt and context engineering, Anthropic and OpenAI-compatible APIs |
 | Retrieval | Chunking, embeddings, hybrid search, pgvector, citations, retrieval evals (recall@k, MRR) |
 | Evaluation and safety | Golden sets, LLM-as-judge, CI eval gates, prompt-injection defences, guardrails |
 | Production | FastAPI, SSE streaming, Docker, Nginx/TLS, GCP, PostgreSQL, OpenTelemetry, CI/CD |
