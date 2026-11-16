@@ -30,6 +30,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 
 | Project | What it shows |
 |---|---|
+| **[mlops-model-lifecycle](https://github.com/Avinash186200/mlops-model-lifecycle)** | A churn model through its whole life: data checks, model cards, a registry with promotion gates and rollback, a scoring API, drift monitoring and an 18-month test of retraining policies |
 | **[meta-labeling-trade-filter](https://github.com/Avinash186200/meta-labeling-trade-filter)** | A second-stage ML model that scores each trade at entry, leak-free walk-forward training, and a FastAPI scoring service |
 | **[volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)** | GARCH, HAR and regime-classifier forecasts compared on a rolling, leak-free QLIKE evaluation |
 | **[feature-factory](https://github.com/Avinash186200/feature-factory)** | Feature generation and screening with a leakage guard, permutation tests and false-discovery control |
@@ -42,7 +43,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | LLM applications | LoRA/PEFT fine-tuning, LangGraph, MCP, tool calling, structured output, prompt and context engineering, Anthropic and OpenAI-compatible APIs |
 | Retrieval | Chunking, embeddings, hybrid search, pgvector, citations, retrieval evals (recall@k, MRR) |
 | Evaluation and safety | Golden sets, LLM-as-judge, CI eval gates, prompt-injection defences, guardrails |
-| Production | FastAPI, SSE streaming, Docker, Nginx/TLS, GCP, PostgreSQL, OpenTelemetry, CI/CD |
+| Production | MLOps (model registry, promotion gates, drift monitoring, retraining), FastAPI, SSE streaming, Docker, Nginx/TLS, GCP, PostgreSQL, OpenTelemetry, CI/CD |
 | Machine learning | scikit-learn, gradient boosting, random forests, neural networks, time-series forecasting (GARCH, HAR), feature engineering, clustering |
 | ML validation | Walk-forward and purged cross-validation, hold-outs, deflated Sharpe, permutation tests, false-discovery control, leakage audits |
 
