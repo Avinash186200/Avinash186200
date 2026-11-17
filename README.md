@@ -57,6 +57,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | [ml-model-building-workflow](https://github.com/Avinash186200/ml-model-building-workflow) | Feature engineering, point-in-time merge, train-only scaling, clustering and a baseline classifier |
 | [trading-algorithm-backtester](https://github.com/Avinash186200/trading-algorithm-backtester) | Random forest, SVM, MLP and logistic classifiers compared on a strict time split |
 | [intraday-market-data-pipeline](https://github.com/Avinash186200/intraday-market-data-pipeline) | Data pipeline for model inputs: parallel backfill, quality checks, leak-free features, DuckDB/Parquet |
+| [job-application-tracker](https://github.com/Avinash186200/job-application-tracker) | A small CLI to track job applications: SQLite store, de-duplication, status pipeline, follow-ups and a weekly response-rate report |
 | [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Generative tooling I built for my course: a lesson script becomes a narrated video, Shorts and thumbnails |
 
 ## Earlier ML work (2020 to 2021)
