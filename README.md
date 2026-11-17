@@ -23,6 +23,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | **[quant-research-agent](https://github.com/Avinash186200/quant-research-agent)** | An LLM agent and MCP server that audits model code for look-ahead and selection bias, scored against a planted-bug eval suite |
 | **[llm-serving-patterns](https://github.com/Avinash186200/llm-serving-patterns)** | Semantic cache, model router, conversation memory and a resilience layer, each benchmarked: hit rate vs wrong answers, cost vs task success, tokens vs recall |
 | **[rag-evaluation-benchmark](https://github.com/Avinash186200/rag-evaluation-benchmark)** | Chunking, BM25 vs dense vs hybrid retrieval, cross-encoder reranking and abstention, measured on a labelled question set with hard cases |
+| **[llm-release-playbook](https://github.com/Avinash186200/llm-release-playbook)** | How I release LLM apps safely: release standard, go/no-go and rollout checklists, eval and incident playbooks, metrics spec, and a release-gate tool |
 | **[llm-finetuning-lora](https://github.com/Avinash186200/llm-finetuning-lora)** | LoRA fine-tuning compared with zero-shot and few-shot prompting on a strict-JSON extraction task: validity, exact match, latency, rank ablation, seeds, and where fine-tuning stops generalising |
 | **[ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch)** | Code for my free 50-episode YouTube course: LLMs, prompting, agents, MCP, RAG, evals, LLMOps, deployment, security and system design |
 
