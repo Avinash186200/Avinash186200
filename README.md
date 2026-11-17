@@ -69,7 +69,7 @@ today and links to the maintained version.
 |---|---|---|
 | [ml-trading-classifiers-2020](https://github.com/Avinash186200/ml-trading-classifiers-2020) | 2020 | Random forest, SVM and neural-network classifiers scoring signals, with feature importance |
 | [ml-feature-engineering-pipeline-2020](https://github.com/Avinash186200/ml-feature-engineering-pipeline-2020) | 2020 | Feature pipeline: indicators, label merge, standardisation, K-means clustering, feature importance |
-| [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with logistic regression, tree models and a small neural network |
+| [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with a random forest and a small neural network |
 
 <details>
 <summary><b>Quantitative research (11 repos)</b></summary>
