@@ -33,7 +33,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 |---|---|
 | **[mlops-model-lifecycle](https://github.com/Avinash186200/mlops-model-lifecycle)** | A churn model through its whole life: data checks, model cards, a registry with promotion gates and rollback, a scoring API, drift monitoring and an 18-month test of retraining policies |
 | **[meta-labeling-trade-filter](https://github.com/Avinash186200/meta-labeling-trade-filter)** | A second-stage ML model that scores each trade at entry, leak-free walk-forward training, and a FastAPI scoring service |
-| **[volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)** | GARCH, HAR and regime-classifier forecasts compared on a rolling, leak-free QLIKE evaluation |
+| **[volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)** | GARCH, HAR and regime-conditional HAR forecasts compared on a rolling, leak-free QLIKE evaluation |
 | **[feature-factory](https://github.com/Avinash186200/feature-factory)** | Feature generation and screening with a leakage guard, permutation tests and false-discovery control |
 | **[ecommerce-return-prediction](https://github.com/Avinash186200/ecommerce-return-prediction)** | Classic classification end to end: point-in-time features, label lag, calibrated predictions at order time |
 
