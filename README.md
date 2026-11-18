@@ -26,6 +26,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | **[llm-release-playbook](https://github.com/Avinash186200/llm-release-playbook)** | How I release LLM apps safely: release standard, go/no-go and rollout checklists, eval and incident playbooks, metrics spec, and a release-gate tool |
 | **[llm-finetuning-lora](https://github.com/Avinash186200/llm-finetuning-lora)** | LoRA fine-tuning compared with zero-shot and few-shot prompting on a strict-JSON extraction task: validity, exact match, latency, rank ablation, seeds, and where fine-tuning stops generalising |
 | **[ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch)** | Code for my free 50-episode YouTube course: LLMs, prompting, agents, MCP, RAG, evals, LLMOps, deployment, security and system design |
+| | New in the course: [system designs](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/system_design) (8, four of them ML), [lessons learned](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/lessons_learned) (10), an [interview bank](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/interview_bank) with 310 flashcards, and [how architecture evolves](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/arch_evolution) |
 
 **Machine learning**
 
