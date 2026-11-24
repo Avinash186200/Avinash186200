@@ -65,6 +65,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | [realtime-signal-broker](https://github.com/Avinash186200/realtime-signal-broker) | WebSocket broker with JWT auth, per-topic sequence numbers and replay from Redis Streams or SQLite; fault-injection tests prove gap-free, duplicate-free delivery |
 | [job-application-tracker](https://github.com/Avinash186200/job-application-tracker) | A small CLI to track job applications: SQLite store, de-duplication, status pipeline, follow-ups and a weekly response-rate report |
 | [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Generative tooling I built for my course: a lesson script becomes a narrated video, Shorts and thumbnails |
+| [docker-from-scratch](https://github.com/Avinash186200/docker-from-scratch) | Docker end to end: 18 chapters from basics to internals, 8 labs, 78 interview questions, a real disk-full incident, and a tested Dockerfile linter |
 
 ## Earlier ML work (2020 to 2021)
 
