@@ -25,8 +25,9 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | **[rag-evaluation-benchmark](https://github.com/Avinash186200/rag-evaluation-benchmark)** | Chunking, BM25 vs dense vs hybrid retrieval, cross-encoder reranking and abstention, measured on a labelled question set with hard cases |
 | **[llm-release-playbook](https://github.com/Avinash186200/llm-release-playbook)** | How I release LLM apps safely: release standard, go/no-go and rollout checklists, eval and incident playbooks, metrics spec, and a release-gate tool |
 | **[llm-finetuning-lora](https://github.com/Avinash186200/llm-finetuning-lora)** | LoRA fine-tuning compared with zero-shot and few-shot prompting on a strict-JSON extraction task: validity, exact match, latency, rank ablation, seeds, and where fine-tuning stops generalising |
+| **[speech-to-signal](https://github.com/Avinash186200/speech-to-signal)** | Central-bank speech to a hawkish/dovish signal: Whisper transcription, four stance classifiers (lexicon, TF-IDF, fine-tuned FinBERT, LLM adapter) on a leak-free test set, and a backtest showing how latency eats the edge |
 | **[ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch)** | Code for my free 50-episode YouTube course: LLMs, prompting, agents, MCP, RAG, evals, LLMOps, deployment, security and system design |
-| | New in the course: [system designs](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/system_design) (8, four of them ML), [lessons learned](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/lessons_learned) (10), an [interview bank](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/interview_bank) with 363 flashcards, a new [agent testing day](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/day18_agent_testing), and [how architecture evolves](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/arch_evolution) |
+| | New in the course: [system designs](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/system_design) (8, four of them ML), [lessons learned](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/lessons_learned) (10), an [interview bank](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/interview_bank) with 371 flashcards, an [agent testing day](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/day18_agent_testing), a [deployment skills day](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/day19_deploy_skill), and [how architecture evolves](https://github.com/Avinash186200/ai-engineering-from-scratch/tree/main/arch_evolution) |
 
 **Machine learning**
 
@@ -37,6 +38,8 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | **[volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)** | GARCH, HAR and regime-conditional HAR forecasts compared on a rolling, leak-free QLIKE evaluation |
 | **[feature-factory](https://github.com/Avinash186200/feature-factory)** | Feature generation and screening with a leakage guard, permutation tests and false-discovery control |
 | **[ecommerce-return-prediction](https://github.com/Avinash186200/ecommerce-return-prediction)** | Classic classification end to end: point-in-time features, label lag, calibrated predictions at order time |
+| **[clustered-feature-importance](https://github.com/Avinash186200/clustered-feature-importance)** | MDI, permutation, SHAP, drop-column and clustered importance scored against known ground truth under correlated features, with parallel permutation and a downstream selection test |
+| **[well-log-production-ml](https://github.com/Avinash186200/well-log-production-ml)** | Ranking planned wells by early production from well logs: a data-readiness audit, LightGBM Tweedie, and how much random CV overstates results compared with spatial and leave-one-field-out CV |
 
 ## What I work with
 
@@ -58,6 +61,8 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | [ml-model-building-workflow](https://github.com/Avinash186200/ml-model-building-workflow) | Feature engineering, point-in-time merge, train-only scaling, clustering and a baseline classifier |
 | [trading-algorithm-backtester](https://github.com/Avinash186200/trading-algorithm-backtester) | Random forest, SVM, MLP and logistic classifiers compared on a strict time split |
 | [intraday-market-data-pipeline](https://github.com/Avinash186200/intraday-market-data-pipeline) | Data pipeline for model inputs: parallel backfill, quality checks, leak-free features, DuckDB/Parquet |
+| [security-master-resolver](https://github.com/Avinash186200/security-master-resolver) | Entity resolution for a point-in-time security master: IDs, names and price continuity linked with union-find across renames, mergers, spin-offs and relistings |
+| [realtime-signal-broker](https://github.com/Avinash186200/realtime-signal-broker) | WebSocket broker with JWT auth, per-topic sequence numbers and replay from Redis Streams or SQLite; fault-injection tests prove gap-free, duplicate-free delivery |
 | [job-application-tracker](https://github.com/Avinash186200/job-application-tracker) | A small CLI to track job applications: SQLite store, de-duplication, status pipeline, follow-ups and a weekly response-rate report |
 | [script-to-video-engine](https://github.com/Avinash186200/script-to-video-engine) | Generative tooling I built for my course: a lesson script becomes a narrated video, Shorts and thumbnails |
 
@@ -73,7 +78,7 @@ today and links to the maintained version.
 | [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with a random forest and a small neural network |
 
 <details>
-<summary><b>Quantitative research (11 repos)</b></summary>
+<summary><b>Quantitative research (12 repos)</b></summary>
 
 Each has an audit table of the biases I found (look-ahead, selection bias, missing costs) and how I fixed them.
 
@@ -83,7 +88,8 @@ Each has an audit table of the biases I found (look-ahead, selection bias, missi
 | [walk-forward-backtest-pipeline](https://github.com/Avinash186200/walk-forward-backtest-pipeline) | Model selection with nested walk-forward, a hold-out and selection-decay reporting |
 | [emerging-market-feature-library](https://github.com/Avinash186200/emerging-market-feature-library) | Causal feature library for multi-index panels, with a timing-leak audit |
 | [drawdown-constrained-allocation](https://github.com/Avinash186200/drawdown-constrained-allocation) | Walk-forward allocator with a hard single-day loss cap |
-| [vol-budgeted-model-allocation](https://github.com/Avinash186200/vol-budgeted-model-allocation) | Allocation across models under per-model, group and portfolio volatility budgets |
+| [vol-budgeted-model-allocation](https://github.com/Avinash186200/vol-budgeted-model-allocation) | Allocation across models under per-model, group and portfolio volatility budgets, plus a non-ML minimum-variance follow-up that shows the caps remove its edge |
+| [lob-tick-model-lowlatency](https://github.com/Avinash186200/lob-tick-model-lowlatency) | Order-book move model with microsecond compiled inference, and a fill-aware backtest showing the mid-price edge disappears after queue position and fees |
 | [short-interest-gap-strategy](https://github.com/Avinash186200/short-interest-gap-strategy) | Gap strategy on short-interest data with a random-pick control |
 | [fx-strategy-backtester](https://github.com/Avinash186200/fx-strategy-backtester) | FX rule backtester: next-bar fills, bid/ask costs, deflated Sharpe |
 | [commodity-strategy-backtester](https://github.com/Avinash186200/commodity-strategy-backtester) | Commodity rule backtester with walk-forward selection |
