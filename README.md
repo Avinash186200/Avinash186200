@@ -78,7 +78,7 @@ today and links to the maintained version.
 | [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with a random forest and a small neural network |
 
 <details>
-<summary><b>Quantitative research (12 repos)</b></summary>
+<summary><b>Quantitative research (13 repos)</b></summary>
 
 Each has an audit table of the biases I found (look-ahead, selection bias, missing costs) and how I fixed them.
 
@@ -89,6 +89,7 @@ Each has an audit table of the biases I found (look-ahead, selection bias, missi
 | [emerging-market-feature-library](https://github.com/Avinash186200/emerging-market-feature-library) | Causal feature library for multi-index panels, with a timing-leak audit |
 | [drawdown-constrained-allocation](https://github.com/Avinash186200/drawdown-constrained-allocation) | Walk-forward allocator with a hard single-day loss cap |
 | [vol-budgeted-model-allocation](https://github.com/Avinash186200/vol-budgeted-model-allocation) | Allocation across models under per-model, group and portfolio volatility budgets, plus a non-ML minimum-variance follow-up that shows the caps remove its edge |
+| [batch-copula-fitting-jax](https://github.com/Avinash186200/batch-copula-fitting-jax) | Thousands of bivariate copulas fitted at once with JAX: parameter recovery, AIC family selection, tail dependence, and a stress test where a Gaussian fit understates joint crashes |
 | [lob-tick-model-lowlatency](https://github.com/Avinash186200/lob-tick-model-lowlatency) | Order-book move model with microsecond compiled inference, and a fill-aware backtest showing the mid-price edge disappears after queue position and fees |
 | [short-interest-gap-strategy](https://github.com/Avinash186200/short-interest-gap-strategy) | Gap strategy on short-interest data with a random-pick control |
 | [fx-strategy-backtester](https://github.com/Avinash186200/fx-strategy-backtester) | FX rule backtester: next-bar fills, bid/ask costs, deflated Sharpe |
