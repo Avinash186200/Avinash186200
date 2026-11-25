@@ -79,7 +79,7 @@ today and links to the maintained version.
 | [ecommerce-returns-ml-2021](https://github.com/Avinash186200/ecommerce-returns-ml-2021) | 2021 | Predicting online order returns with a random forest and a small neural network |
 
 <details>
-<summary><b>Quantitative research (14 repos)</b></summary>
+<summary><b>Quantitative research (15 repos)</b></summary>
 
 Each has an audit table of the biases I found (look-ahead, selection bias, missing costs) and how I fixed them.
 
@@ -91,6 +91,7 @@ Each has an audit table of the biases I found (look-ahead, selection bias, missi
 | [drawdown-constrained-allocation](https://github.com/Avinash186200/drawdown-constrained-allocation) | Walk-forward allocator with a hard single-day loss cap |
 | [vol-budgeted-model-allocation](https://github.com/Avinash186200/vol-budgeted-model-allocation) | Allocation across models under per-model, group and portfolio volatility budgets, plus a non-ML minimum-variance follow-up that shows the caps remove its edge, and an ML method selector tested on 10 untouched seeds with a no-regime control |
 | [batch-copula-fitting-jax](https://github.com/Avinash186200/batch-copula-fitting-jax) | Thousands of bivariate copulas fitted at once with JAX: parameter recovery, AIC family selection, tail dependence, and a stress test where a Gaussian fit understates joint crashes |
+| [target-to-book-simulator](https://github.com/Avinash186200/target-to-book-simulator) | How much of a model's paper return survives into a real book after mandate limits, vol cap, costs, carry and rebalance timing, attributed step by step over 10 held-out seeds |
 | [trade-signing-and-vpin-lab](https://github.com/Avinash186200/trade-signing-and-vpin-lab) | Trade-signing rules scored against known ground truth, and whether VPIN warns of informed trading (it lags rather than leads), with a no-signal control |
 | [lob-tick-model-lowlatency](https://github.com/Avinash186200/lob-tick-model-lowlatency) | Order-book move model with microsecond compiled inference, and a fill-aware backtest showing the mid-price edge disappears after queue position and fees |
 | [short-interest-gap-strategy](https://github.com/Avinash186200/short-interest-gap-strategy) | Gap strategy on short-interest data with a random-pick control |
