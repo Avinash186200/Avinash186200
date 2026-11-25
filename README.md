@@ -33,6 +33,7 @@ These are projects I have worked on over 15 years, across machine learning, quan
 
 | Project | What it shows |
 |---|---|
+| **[ml-platform-infra](https://github.com/Avinash186200/ml-platform-infra)** | A small ML platform as code: AWS Terraform, Kubernetes manifests, Dagster pipelines with a blocking data check before anything goes live, a point-in-time feature API with versioned caching, and an idempotent job queue. Validated in CI, never applied to a real account |
 | **[mlops-model-lifecycle](https://github.com/Avinash186200/mlops-model-lifecycle)** | A churn model through its whole life: data checks, model cards, a registry with promotion gates and rollback, a scoring API, drift monitoring and an 18-month test of retraining policies |
 | **[meta-labeling-trade-filter](https://github.com/Avinash186200/meta-labeling-trade-filter)** | A second-stage ML model that scores each trade at entry, leak-free walk-forward training, and a FastAPI scoring service |
 | **[volatility-regime-ml](https://github.com/Avinash186200/volatility-regime-ml)** | GARCH, HAR and regime-conditional HAR forecasts compared on a rolling, leak-free QLIKE evaluation |
