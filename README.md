@@ -53,6 +53,18 @@ These are projects I have worked on over 15 years, across machine learning, quan
 | Machine learning | scikit-learn, gradient boosting, random forests, neural networks, time-series forecasting (GARCH, HAR), feature engineering, clustering |
 | ML validation | Walk-forward and purged cross-validation, hold-outs, deflated Sharpe, permutation tests, false-discovery control, leakage audits |
 
+## YouTube
+
+I teach what I build. Three playlists:
+
+| Playlist | What it covers |
+|---|---|
+| [AI Engineering from Scratch with Avinash](https://www.youtube.com/playlist?list=PLKRdiVI5CiMg) | The full course: LLMs, prompting, agents, MCP, RAG, evals, LLMOps, deployment, security, system design and interview prep. Code in [ai-engineering-from-scratch](https://github.com/Avinash186200/ai-engineering-from-scratch) |
+| [ChatGPT and Claude for Beginners](https://www.youtube.com/playlist?list=PLcfhKdThR4vo) | AI for everyday use, from scratch, no coding needed |
+| [MCP vs: How AI Connects to Tools](https://www.youtube.com/playlist?list=PLKJUVNxFM5dE) | How AI assistants connect to tools and data through MCP |
+
+Video walkthrough of these repos: [A Tour of My AI and ML Projects: AI Agents, RAG, LoRA, MLOps](https://youtu.be/VWHfPBUPgf4)
+
 ---
 
 ## More ML and AI
